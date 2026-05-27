@@ -75,7 +75,7 @@ if len(matches) > 0:
     if len(matches) > 5:
         print(f"\nShowing Top 5 out of {len(matches)}:")
     else:
-        print(f"\nShowing {len(matches)} results:")
+        print(f"\nShowing {len(matches)} result(s):")
     
     matches.sort(key=lambda x: x[0], reverse=True)
     for i in range(len(matches[:5])):
